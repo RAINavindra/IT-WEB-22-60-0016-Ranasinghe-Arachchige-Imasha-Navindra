@@ -1,0 +1,146 @@
+body{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+header .navbar-brand{
+    color: #525ffb;
+    font-size: 30px;
+    font-weight:bolder;
+    font-family: 'Rammetto One', cursive;
+}
+.btn-1{
+    width: 110px;
+    height: 35px;
+    border: 2px solid #525ffb;
+    color: #525ffb;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    background-color: white;
+}
+.btn-cus{
+    border: #525ffb ;
+    background-color: #525ffb;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+h1{
+    font-family: 'Rammetto One', cursive;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    
+}
+.p-cus{
+    color:rgb(133, 122, 122) ;
+    opacity: 0.6;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+.hero{
+    padding-top: 100px;
+}
+
+.sec-1 h1,.sec-5 h1,.sec-4 h1,.sec-2 h1,.sec-3 h1{
+    font-size: 30px;
+}
+.card-custom {
+    padding-left: 100px;
+    padding-right: 100px;
+    border: none;
+}
+.h4-cus{
+    font-family: 'Rammetto One', cursive;
+    font-weight: bolder;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.card-para{
+ font-size: 11px;
+ font-weight: bolder;
+
+
+}
+.card-2{
+    padding-top: 50px;
+}
+.sec-2{
+    padding-top: 150px;
+}
+
+.sec-3{
+    padding-top: 150px;
+}
+.sec-4{
+    padding-top: 150px;
+}
+.sec-5{
+    padding-top: 75px;
+}
+.counter{
+    padding: 10% 0 10% 0;
+
+}
+.counter h1{
+    font-size: 70px;
+    color: #525ffb;
+}
+.pic-1{
+    width: 220px;
+}
+.pic-2{
+    width: 220px;
+}
+@media screen and (max-width:1064px) {
+    .card-custom {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .sec-1 .card-2{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+}
+@media screen and (max-width:768px){
+    .sec-2 img{
+        display: none;
+    }
+    .card-2{
+        padding-left: 50%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .card-3{
+        padding: 0 0 0 0  ;
+    }
+    
+}
+@media screen and (max-width:575px){
+    .sec-3 .main-image{
+        display: none;
+    }
+    .counter h1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:991px){
+    .pic-3{
+        display: none;
+    }
+    .card-3{
+        padding: 0 30% 0 30%;
+    }
+
+}
+@media screen and (max-width:528px){
+.hero button{
+    margin-top: 20px;
+}
+}
+
+

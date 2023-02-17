@@ -1,0 +1,59 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+nav a {
+    font-size:15px;
+    font-weight:bold;
+}
+.navbar-brand{
+    font-size:30px;
+}
+body {
+  margin-bottom: 60px;
+}
+h1{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   text-align:center;
+}
+form{
+    padding:0 30% 0 30%;
+}
+.Home{
+    background-image:url(/Home.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.stud_info {
+    background-image: url(/course.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.course {
+    background-image: url(/course.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.stud-course {
+    background-image: url(/course.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

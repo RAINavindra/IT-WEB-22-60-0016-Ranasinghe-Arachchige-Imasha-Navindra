@@ -1,0 +1,27 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "New student informations";
+}
+<body class="stud_info">
+    <h1 class="text-light">@ViewData["Title"]</h1>
+
+
+<div class="row">
+    <div class="col-lg-4"></div>
+        <div class="col-lg-8">
+<form class="" method="post">
+    
+    <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label text-light">Enter your name</label>
+  <input type="text" name="Name" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+                <button type="submit" class="btn btn-primary mb-3">Click here to get student informations</button>
+</form>
+        </div>
+</div>
+<div>
+    <h2 class="text-light">@ViewData["username"]</h2>
+        @ViewData["data"]
+</div>
+</body>

@@ -1,0 +1,39 @@
+SELECT * FROM Student;
+
+1	Kasun Gamage		Kandy		2
+2	Daniel Sam		Jaffna		3
+3	Hansini Silva		Colombo		1
+4	Ranidu Herath		Matara		3
+5	Praneeth Wijesinghe	Kandy		4
+6	Nuwani Herath		Rathnapura	1
+
+
+SELECT Student_ID,Name,City FROM Student;
+
+1	Kasun Gamage		Kandy
+2	Daniel Sam		Jaffna
+3	Hansini Silva		Colombo
+4	Ranidu Herath		Matara
+5	Praneeth Wijesinghe	Kandy
+6	Nuwani Herath		Rathnapura
+
+UPDATE Student SET City= 'Galle' WHERE Student_ID = 4;
+SELECT * FROM Student;
+
+1	Kasun Gamage		Kandy		2
+2	Daniel Sam		Jaffna		3
+3	Hansini Silva		Colombo		1
+4	Ranidu Herath		Galle		3
+5	Praneeth Wijesinghe	Kandy		4
+6	Nuwani Herath		Rathnapura	1
+
+
+SELECT Student.* , courses.Name FROM Student inner join courses ON Student.Course_ID = courses.Course_ID;
+
+
+1	Kasun Gamage		Kandy		2	Graphic Design
+2	Daniel Sam		Jaffna		3	Mobile App Development
+3	Hansini Silva		Colombo		1	Web Development
+4	Ranidu Herath		Galle		3	Mobile App Development
+5	Praneeth Wijesinghe	Kandy		4	Java
+6	Nuwani Herath		Rathnapura	1	Web Development

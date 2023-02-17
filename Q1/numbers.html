@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <span class="num" data-val="400">000</span>
+    </div>
+
+    <script>
+        let valueDisplays = document.querySelector(".num");
+        let interval = 5000;
+
+        valueDisplays.for((valueDisplays)=>{
+            let startValue = 0;
+            let endValue = parseInt(valueDisplays.getAttribute
+            ("data-val"));
+            let duration = Math.floor(interval / endValue);
+            let counter = setInterval(function (){
+                startValue += 1;
+                valueDisplay.textContent = startValue;
+                if (startValue == endValue){
+                    clearInterval(counter);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

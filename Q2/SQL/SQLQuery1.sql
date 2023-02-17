@@ -1,0 +1,1 @@
+SELECT Student.* , courses.Name FROM Student inner join courses on Student.Course_ID = courses.Course_ID;
